@@ -1,0 +1,49 @@
+.nav {
+  position: fixed;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #f18585;
+  padding: 20px 0;
+}
+
+.nav-link-home {
+  position: absolute;
+  left: 10px;
+  font-style: normal;
+  text-decoration: none;
+  color: #a31808;
+  font-size: 12px;
+  display: inline-block;
+  top: 10px;
+  padding-top: 4px;
+  padding-bottom: 9px;
+  padding-right: 9px;
+  padding-left: 9px;
+}
+.nav-link-name {
+  padding: 9px;
+  text-decoration: none;
+  color: rgb(100, 29, 33);
+  font-weight: bolder;
+  font-size: 15px;
+}
+.Header__right {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.nav-link {
+  padding: 9px;
+  text-decoration: none;
+  color: #9b0707;
+  font-size: 12px;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: #004d99 solid 2px;
+}

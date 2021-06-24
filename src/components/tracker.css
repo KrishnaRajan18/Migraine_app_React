@@ -1,0 +1,14 @@
+.record-item {
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #f5ecec;
+  box-shadow: 0 0 10px #352823;
+  padding: 25px;
+  margin: 1.5%;
+  min-height: 175px;
+  min-width: 20%;
+  color: rgb(100, 29, 33);
+  height: 400px;
+  vertical-align: middle;
+  border-radius: 20px;
+}

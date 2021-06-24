@@ -1,38 +1,178 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: rgba(3, 1, 65);
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  font-family: cursive;
+  text-align: center;
+  font-size: 3em;
+  margin: 8;
+  color: rgba(216, 6, 6, 0.699);
+}
+h2 {
+  font-size: 1em;
+  font-family: sans-serif;
+  font-style: italic;
+  color: rgba(3, 3, 3, 0.699);
+}
+.log-in {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: #030303;
+}
+
+#link {
+  width: 75px;
+  display: inline-block;
+  margin-right: 1%;
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+  color: #e91717;
+  border: 1px grey;
+}
+
+#link:hover {
+  background-color: white;
+  box-shadow: 0 0 10px #b3b3b3;
+}
+* {
+  box-sizing: border-box;
+}
+#brain-img {
+  background: no-repeat center center fixed;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 .App {
+  text-align: center;
+  padding: 0;
+  margin: 0 5%;
+  padding-bottom: 20px;
+  overflow: auto;
+  min-height: 90vh;
+}
+button {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background: #f18585;
+
+  border: none;
+  margin-right: 1%;
+  font-size: 0.9em;
+  font-family: "Roboto", sans-serif;
+  color: #0f0303;
+}
+button:hover {
+  background-color: rgb(83, 67, 67);
+  background-color: #ee9662;
+  box-shadow: 0 0 10px #b3b3b3;
+  transition: 0.6s;
+}
+.about-app {
+  border-radius: 20px;
+  box-shadow: 0 0 10px #252323;
+  padding: 2% 0;
+  margin: 5% 0;
+}
+
+.log-in {
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #352823;
+  padding: 25px;
+  margin: 1.5%;
+  min-height: 175px;
+  min-width: 20%;
+  color: rgb(100, 29, 33);
+  height: 500px;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+.sign-up {
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #352823;
+  padding: 25px;
+  margin: 1.5%;
+  min-height: 175px;
+  min-width: 20%;
+  color: rgb(100, 29, 33);
+  height: 500px;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+.login-form,
+.signup-form {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+form {
+  padding: 0 5%;
+  text-align: left;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signup-form-entry {
+  padding-bottom: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+label {
+  display: block;
 }
 
-.App-link {
-  color: #61dafb;
+.signup-form-entry > input,
+.login-form-entry > input {
+  width: 250px;
+  height: 30px;
+  appearance: none;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font: Sans-Serif;
+  color: black;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+}
+fieldset {
+  border: none;
+  text-align: center;
+  background-color: #f5ecec;
+  box-shadow: 0 0 10px #141313;
+  border-radius: 20px;
+  padding: 2% 5%;
+}
+.record-form-entry {
+  padding: 15px 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.record-form-entry > select,
+.record-form-entry > input {
+  width: 500px;
+  height: 40px;
+  appearance: none;
+  cursor: pointer;
+  font: Sans-Serif;
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding-left: 25px;
+  text-align: center;
+}
+.label {
+  font-weight: bolder;
+  color: rgb(100, 29, 33);
 }
