@@ -10,7 +10,7 @@ A new user can sign up or an existing user can log in.
 
 Shows the user their most frequent attack record.
 
-**Display Records **
+**Display Records**
 
 Users can find all their logged information on this page.
 
